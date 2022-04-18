@@ -1,5 +1,4 @@
-import React, { createContext } from "react";
-import { useDatepicker, UseDatepickerProps } from '@datepicker-react/hooks';
+import { createContext } from "react";
 
 interface DatepickerContextValues {
   focusedDate: Date | null
